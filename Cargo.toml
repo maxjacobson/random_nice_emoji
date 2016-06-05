@@ -1,0 +1,7 @@
+[package]
+name = "random_nice_emoji"
+version = "0.1.0"
+authors = ["Max Jacobson <max@hardscrabble.net>"]
+
+[dependencies]
+rand = "0.3.14"
