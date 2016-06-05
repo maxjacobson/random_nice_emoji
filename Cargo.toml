@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Max Jacobson <max@hardscrabble.net>"]
 description = "This is a little bin which prints a random nice emoji, which I use in my shell prompt"
 license = "MIT"
+homepage = "https://github.com/maxjacobson/random_nice_emoji"
 
 [dependencies]
 rand = "0.3.14"
