@@ -1,6 +1,6 @@
 [package]
 name = "random_nice_emoji"
-version = "0.3.0"
+version = "0.3.1"
 authors = ["Max Jacobson <max@hardscrabble.net>"]
 description = "This is a little bin which prints a random nice emoji, which I use in my shell prompt"
 license = "MIT"
