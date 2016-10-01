@@ -7,4 +7,4 @@ license = "MIT"
 homepage = "https://github.com/maxjacobson/random_nice_emoji"
 
 [dependencies]
-rand = "0.3.14"
+pick-one = "1.0.1"

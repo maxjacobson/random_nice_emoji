@@ -1,18 +1,11 @@
-extern crate rand;
-use rand::distributions::{IndependentSample, Range};
-
-fn sample(list: Vec<&str>) -> &str {
-    let between = Range::new(0, list.len());
-    let mut rng = rand::thread_rng();
-    let index = between.ind_sample(&mut rng);
-    let el = list[index];
-    return el;
-}
+extern crate pick_one;
+use pick_one::pick_one_str;
 
 fn main() {
     // cool, friendly emoji that look fine against a black terminal background
-    let list = vec!["🐖", "😅", "🌸", "🐙", "🎑", "🖌", "☕", "📊", "🐋", "🌈",
-                    "✨"];
-    let emoji = sample(list);
+    let list = ["🐖", "😅", "🌸", "🐙", "🎑", "🖌", "☕", "📊", "🐋", "🌈",
+                "✨"];
+
+    let emoji = pick_one_str(&list);
     print!("{}", emoji);
 }
